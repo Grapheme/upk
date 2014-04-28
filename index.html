@@ -13,9 +13,10 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/fotorama.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -25,10 +26,11 @@
         <![endif]-->
 
         <header class="header">
-            <div class="logo"></div>
+            <a href="#" class="logo"></a>
             <div class="header-content">
                 <div class="top-menu">
                     <ul>
+                        <li class="intranet"><a href="#">Интранет</a></li>
                         <ul class="sub-nav">
                             <li class="sub-item"><a href="#">Карьера</a>
                             <li class="sub-item"><a href="#">Тендеры</a>
@@ -55,10 +57,58 @@
                 </nav>
             </div>
         </header>
+        <section class="slideshow">
+            <div class="fotorama"   
+                data-width="100%"
+                data-height="800px" 
+                data-navposition="top" 
+                data-transition="crossfade" 
+                data-arrow="false">
+
+                <div class="fotorama-slide" style="background-image: url(img/index_back_filter.jpg)">
+                    <div class="slide-title">Новейшие технологии и безнес-подходы</div>
+                </div>
+                <div class="fotorama-slide" style="background-image: url(img/index_back.jpg)">
+                    <div class="slide-title">Новейшие технологии number 2</div>
+                </div>
+
+            </div>
+            <div class="index-blocks">
+                <div class="index-block">
+                    <div class="block-top">
+                    </div>
+                    <div class="block-hover">
+                    </div>
+                </div>
+                <div class="index-block">
+                    <div class="block-top">
+                    </div>
+                    <div class="block-hover">
+                    </div>
+                </div>
+                <div class="index-block">
+                    <div class="block-top">
+                    </div>
+                    <div class="block-hover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-logo"></div>
+            <div class="footer-copy">ООО «Успенский перерабатывающий комплекс»</div>
+            <ul class="sub-nav">
+                <li class="sub-item"><a href="#">Карьера</a>
+                <li class="sub-item"><a href="#">Тендеры</a>
+                <li class="sub-item"><a href="#">Карта сайта</a>
+            </ul>
+            <div class="grphm-copy">Сделано в ГРАФЕМА</div>
+        </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <script src="js/vendor/fotorama.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
