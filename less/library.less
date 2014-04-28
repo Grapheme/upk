@@ -25,6 +25,13 @@ ul, li {
     overflow: hidden;
 }
 
+/* Box-sizing: content-box | padding-box | border-box */
+.box-sizing(@type: border-box) {
+ -webkit-box-sizing: @type;
+ -moz-box-sizing: @type;
+ box-sizing: @type;
+}
+
 /* Transition */
 .transition(@elem: all, @eff: ease, @time: .25s) {
 	-webkit-transition: @elem @eff @time;
