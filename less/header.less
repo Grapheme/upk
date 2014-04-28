@@ -25,6 +25,7 @@
 
 .top-menu {
 	position: absolute;
+	line-height: 30px;
 	top: 35px;
 	left: 0;
 	right: 0;
@@ -34,11 +35,19 @@
 	}
 
 	.intranet {
-		margin: 0 25px 0 0;
+		position: relative;
+		.trng-border(transparent);
+
+		&:hover {
+			.trng-border;
+		}
 
 		a {
 			font-size: 12px;
+			font-style: italic;
+			text-decoration: none;
 			color: @header-text-col;
+			padding: 0 25px 0 15px;
 
 			&:before {
 				content: "";
@@ -48,6 +57,28 @@
 				display: inline-block;
 				margin: 0 5px 0 0;
 			}
+		}
+	}
+}
+
+.sub-nav {
+	height: 33px;
+	.trng-line;
+
+	.sub-item {
+		position: relative;
+		.trng-border;
+
+		a {
+			color: #fff;
+			font-size: 12px;
+			font-style: italic;
+			text-decoration: none;
+			padding: 0 10px;
+		}
+
+		&:hover {
+			.trng-border(#98c25a);
 		}
 	}
 }
@@ -63,6 +94,7 @@
 	}
 
 	.nav-item {
+		.transition(border, ease, .25s);
 		margin: 0 35px 0 0;
 		-moz-box-sizing: border-box;
     	box-sizing: border-box;

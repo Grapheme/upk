@@ -1,5 +1,7 @@
 @wrap-width: 1280px;
 @header-text-col: #181818;
+@green-reg: #00984b;
+@green-light: #98c25a;
 @htmlFontSize: 16;
 
 ul, li {
@@ -38,4 +40,33 @@ ul, li {
 	-webkit-transition: @elem @eff @time;
 	-moz-transition: @elem @eff @time;
 	transition: @elem @eff @time;
+}
+
+.trng-border(@color: @green-reg) {
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: -1px; right: -1px; bottom: -1px; left: -1px;
+		background: @color;
+		-webkit-transform: skew(-15deg);
+		-ms-transform: skew(-15deg);
+		transform: skew(-15deg);
+
+		.transition();
+	}
+}
+
+.trng-line {
+	&:after {
+		content: "";
+		position: absolute;
+		width: 8px;
+		z-index: -1;
+		top: -1px; bottom: 0; right: -8px;
+		background: @green-light;
+		-webkit-transform: skew(-15deg);
+		-ms-transform: skew(-15deg);
+		transform: skew(-15deg);
+	}
 }
