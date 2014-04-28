@@ -1,7 +1,5 @@
 @wrap-width: 1280px;
 @header-text-col: #181818;
-@green-reg: #00984b;
-@green-light: #98c25a;
 @htmlFontSize: 16;
 
 ul, li {
@@ -42,7 +40,7 @@ ul, li {
 	transition: @elem @eff @time;
 }
 
-.trng-border(@color: @green-reg) {
+.trng-border(@color: @colorGreenDark) {
 	&:before {
 		content: "";
 		position: absolute;
@@ -57,6 +55,19 @@ ul, li {
 	}
 }
 
+.trng-right-border(@color) {
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: -1px; right: -1px; bottom: -1px; left: -1px;
+		background: @color;
+		-webkit-transform: skew(-15deg);
+		-ms-transform: skew(-15deg);
+		transform: skew(-15deg);
+	}
+}
+
 .trng-line {
 	&:after {
 		content: "";
@@ -64,7 +75,7 @@ ul, li {
 		width: 8px;
 		z-index: -1;
 		top: -1px; bottom: 0; right: -8px;
-		background: @green-light;
+		background: @colorGreenLight;
 		-webkit-transform: skew(-15deg);
 		-ms-transform: skew(-15deg);
 		transform: skew(-15deg);
