@@ -114,7 +114,28 @@ main {
     width: @wrap-width;
     margin: 0 auto;
 }
+.link-pdf {
+    .transition;
+    .uppercase;
+    border-bottom: 1px solid;
 
+    color: #000;
+    font-size: 12em / @htmlFontSize;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+        border-color: transparent;
+    }
+    &:before {
+        content: "";
+        display: block;
+        min-width: 88rem / @htmlFontSize;
+        height: 37rem / @htmlFontSize;
+
+        background: url(../img/pdf.png) no-repeat;
+    }
+}
 /* ==========================================================================
    Forms styles
    ========================================================================== */
@@ -189,15 +210,18 @@ main {
 /* ==========================================================================
    Section about
    ========================================================================== */
+.content {
+    padding: 0 0 0 94rem / @htmlFontSize;
+}
 
-.about {
+.investors {
     .box-sizing;
     width: @wrap-width;
     padding: 0 245px;
 
     .desc {
         margin: 0 0 32rem / @htmlFontSize;
-        color: @colorGreen;
+        color: @colorGreenDark;
         font-size: 20em / @htmlFontSize;
     }
 
@@ -223,6 +247,72 @@ main {
     }
 }
 
+.about {
+    .box-sizing;
+    position: relative;
+    width: @wrap-width;
+    padding: 0 245px;
+
+    .link-pdf {
+        position: absolute;
+        top: 0;
+        right: 245rem / @htmlFontSize;
+    }
+
+    .desc {
+        margin: 0 0 48rem / @htmlFontSize;
+        color: @colorGreenDark;
+        font-size: 20em / @htmlFontSize;
+    }
+
+    h2 {
+        .uppercase;
+        margin: 0 0 20rem / @htmlFontSize;
+        font-size: 20em / @htmlFontSize;
+    }
+    
+    .hist-item-cont {
+        position: relative;
+
+        .hist-date {
+            position: absolute;
+            top: 2rem / @htmlFontSize;
+            left: -16rem / @htmlFontSize;
+            width: 94rem / @htmlFontSize;
+            height: 47rem / @htmlFontSize;
+
+            a {
+                .full-abs;
+                .box-sizing;
+                .transition;
+
+                padding: 17rem / @htmlFontSize 10rem / @htmlFontSize 17rem / @htmlFontSize 0;
+                text-decoration: none;
+                background: url(../img/logo_white.png) no-repeat 10rem / @htmlFontSize center @colorGreenLight;
+                
+                line-height: 15rem / @htmlFontSize;
+                color: #fff;
+                text-align: right;
+
+                &:hover {
+                    background-color: @colorGreenUltraLight;
+                }
+            }
+        }
+        h3 {
+            margin: 0;
+            padding: 20rem / @htmlFontSize 0 20rem / @htmlFontSize 94rem / @htmlFontSize;
+
+            font-size: 12em / @htmlFontSize;
+        }
+        .hist-desc {
+            padding: 0 0 0 94rem / @htmlFontSize;
+
+            background: url(../img/dot.png) repeat-y 31rem / @htmlFontSize center;
+            font-size: 14em / @htmlFontSize;
+        }
+    }
+}
 
 
 
