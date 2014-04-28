@@ -1,3 +1,70 @@
 .header {
-	
+	position: relative;
+	width: @wrap-width;
+	height: 140px;
+
+
+	.logo {
+		width: 20%;
+		height: 100%;
+		background: url(../img/logo.png) no-repeat center bottom;
+		float: left;
+	}
+
+	.header-content {
+		position: relative;
+		width: 80%;
+		height: 100%;
+		float: left;
+
+		li {
+			float: left;
+		}
+
+		.top-menu {
+			position: absolute;
+			top: 35px;
+			left: 0;
+			right: 0;
+
+			ul {
+				float: right;
+			}
+		}
+
+		.nav {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+
+			.contacts {
+				float: right;
+			}
+
+			.nav-item {
+				margin: 0 55px 0 0;
+
+				a {
+					text-transform: uppercase;
+					text-decoration: none;
+					font-size: 16px;
+					color: #000;
+					line-height: 50px;
+				}
+			}
+
+			.languages {
+				float: left;
+
+				.language {
+					a {
+						display: block;
+						padding: 5px;
+						background: #b8b7b6;
+					}
+				}
+			}
+		}
+	}
 }
