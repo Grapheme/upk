@@ -55,12 +55,12 @@ ul, li {
 	}
 }
 
-.trng-right-border(@color) {
+.trng-right-border(@color: @colorGreenDark) {
 	&:before {
 		content: "";
 		position: absolute;
 		z-index: -1;
-		top: -1px; right: -1px; bottom: -1px; left: -1px;
+		top: 0; right: -20px; bottom: 0; left: 90%;
 		background: @color;
 		-webkit-transform: skew(-15deg);
 		-ms-transform: skew(-15deg);
