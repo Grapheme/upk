@@ -132,6 +132,7 @@ main {
         display: block;
         min-width: 88rem / @htmlFontSize;
         height: 37rem / @htmlFontSize;
+        margin: 10rem / @htmlFontSize 0;
 
         background: url(../img/pdf.png) no-repeat;
     }
@@ -271,6 +272,10 @@ main {
         font-size: 20em / @htmlFontSize;
     }
     
+    .hist-list {
+        width: 60%;
+    }
+
     .hist-item-cont {
         position: relative;
 
@@ -314,7 +319,80 @@ main {
     }
 }
 
+.news {
+    .box-sizing;
+    position: relative;
+    width: @wrap-width;
+    padding: 0 245px;
 
+    .news-list {
+        padding: 0 0 0 94rem / @htmlFontSize;
+
+        h3 {
+            position: relative;
+            .uppercase;            
+            padding: 0 0 0 73rem / @htmlFontSize;
+            color: @colorGreen;
+            font-size: 26em / @htmlFontSize;        
+            
+            &:before {
+                content: " " attr(data-date) " ";
+                position: absolute;
+                top: 5rem / @htmlFontSize;
+                left: 0;
+                display: inline-block;
+                width: 73px;
+
+                color: @colorGreen;
+                font-size: 20em / 27;
+                font-weight: 300;
+            }
+        }
+
+        .news-desc {
+            width: 67%;
+            padding: 0 0 0 73rem / @htmlFontSize;
+            font-size: 14em / @htmlFontSize;
+            font-weight: 300;
+
+            strong {
+                font-weight: 700;
+            }
+            img {
+                display: block;
+                margin: 0 0 1.5rem;
+            }
+        }
+    }
+
+    .pagination {
+        margin: 5rem 0 5rem;
+        text-align: center;
+        
+        .pages-list {
+            .inline-block;
+        }
+    }
+    .pages-item,
+    .prev,
+    .next {
+        .inline-block;
+        background: #b8b7b6;
+
+        a {
+            .transition;
+
+            display: inline-block;
+            padding: .5rem 1rem;
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+                background: #000;
+            }
+        }
+    }
+}
 
 
 
