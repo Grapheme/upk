@@ -113,8 +113,11 @@ h1 {
     text-transform: uppercase;
 }
 main {
+    position: relative;
     width: @wrap-width;
-    margin: 0 auto;
+    margin: 132rem / @htmlFontSize 0 112rem / @htmlFontSize;
+
+    background: url(../img/bg.png) no-repeat;
 }
 .link-pdf {
     .transition;
@@ -258,7 +261,7 @@ main {
 
     .link-pdf {
         position: absolute;
-        top: 0;
+        top: -22rem / @htmlFontSize;
         right: 245rem / @htmlFontSize;
     }
 
@@ -275,48 +278,50 @@ main {
     }
     
     .hist-list {
-        width: 66%;
+        width: 75%;
     }
 
+    .hist-item {
+        margin: 0 0 2rem;
+    }
     .hist-item-cont {
         position: relative;
 
         .hist-date {
             position: absolute;
             top: 2rem / @htmlFontSize;
-            left: -16rem / @htmlFontSize;
+            left: -12rem / @htmlFontSize;
             width: 94rem / @htmlFontSize;
             height: 47rem / @htmlFontSize;
 
+            text-align: center;
+            
+            img {
+                margin: 0 auto .25rem;
+                display: block;
+            }
             a {
-                .full-abs;
                 .box-sizing;
-                .transition;
+                .inline-block;
+                padding: .3rem .6rem;
 
-                padding: 17rem / @htmlFontSize 10rem / @htmlFontSize 17rem / @htmlFontSize 0;
                 text-decoration: none;
-                background: url(../img/logo_white.png) no-repeat 10rem / @htmlFontSize center @colorGreenLight;
                 
-                line-height: 15rem / @htmlFontSize;
-                color: #fff;
-                text-align: right;
-
-                &:hover {
-                    background-color: @colorGreenUltraLight;
-                }
+                color: @colorGreen;
+                background: #fff;
             }
         }
         h3 {
             margin: 0;
             padding: 20rem / @htmlFontSize 0 20rem / @htmlFontSize 94rem / @htmlFontSize;
 
-            font-size: 12em / @htmlFontSize;
+            font-size: 14em / @htmlFontSize;
         }
         .hist-desc {
             padding: 0 0 0 94rem / @htmlFontSize;
 
-            background: url(../img/dot.png) repeat-y 31rem / @htmlFontSize center;
-            font-size: 14em / @htmlFontSize;
+            background: url(../img/dot.png) repeat-y 20rem / @htmlFontSize center;
+            font-size: 13em / @htmlFontSize;
         }
     }
 }
