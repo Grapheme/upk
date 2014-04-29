@@ -9,13 +9,21 @@ function positionitems() {
       time += 200;
   });
 }
+function slide_over() {
+	$('.slideshow-after').css('width', $(window).width() - $('.wrapper-abs').width());
+}
 $(function(){
 	$('.block-title').each(function(){
 		var pad = ( $('.index-block').width() - $(this).width() ) / 2;
 		$(this).css('padding-left', pad);
 	});
 
+	slide_over();
 	positionitems();
+});
+
+$(window).resize(function(){
+	slide_over();
 });
 
 $('.intranet').click(function(e){
