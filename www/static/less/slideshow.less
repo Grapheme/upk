@@ -2,6 +2,7 @@
 	position: relative;
 	margin: 50rem / @htmlFontSize 0 150rem / @htmlFontSize 0;
 	height: 800rem / @htmlFontSize;
+	min-width: @wrap-width;
 
 	.slide-title {
 		position: absolute;
@@ -12,6 +13,7 @@
 		font-size: 48em / @htmlFontSize;
 		font-weight: 800;
 		text-transform: uppercase;
+		z-index: 10;
 	}
 }
 
@@ -22,7 +24,7 @@
 
 .index-blocks {
 	position: absolute;
-	left: 300rem / @htmlFontSize;
+	left: 290rem / @htmlFontSize;
 	top: 525rem / @htmlFontSize;
 	z-index: 10;
 
