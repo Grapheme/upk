@@ -139,7 +139,7 @@ main {
         height: 37rem / @htmlFontSize;
         margin: 10rem / @htmlFontSize 0;
 
-        background: url(../img/pdf.png) no-repeat;
+        background: url(../img/pdf.png) no-repeat 0 0 e('/') auto 100%;
     }
 }
 /* ==========================================================================
@@ -398,6 +398,17 @@ main {
                 background: #000;
             }
         }
+    }
+    .pages-item.active {
+        background: #555;
+
+        &:hover,
+        a {
+            &:hover {
+                background: #555;
+            }
+            cursor: default;
+        }  
     }
 }
 
