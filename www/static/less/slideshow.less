@@ -1,15 +1,15 @@
 .slideshow {
 	position: relative;
-	margin: 50px 0 150px 0;
-	height: 800px;
+	margin: 50rem / @htmlFontSize 0 150rem / @htmlFontSize 0;
+	height: 800rem / @htmlFontSize;
 
 	.slide-title {
 		position: absolute;
-		left: 550px;
-		width: @wrap-width - 550px;
-		top: 135px;
+		left: 550rem / @htmlFontSize;
+		width: @wrap-width - 550rem / @htmlFontSize;
+		top: 135rem / @htmlFontSize;
 		color: #60b06a;
-		font-size: 48px;
+		font-size: 48em / @htmlFontSize;
 		font-weight: 800;
 		text-transform: uppercase;
 	}
@@ -22,19 +22,19 @@
 
 .index-blocks {
 	position: absolute;
-	left: 300px;
-	top: 550px;
+	left: 300rem / @htmlFontSize;
+	top: 525rem / @htmlFontSize;
 	z-index: 10;
 
 	.index-block {
 		.transition;
 		position: relative;
 		top: 0;
-		// height: 280px;
-		width: 200px;
-		height: 60px;
+		// height: 280rem / @htmlFontSize;
+		width: 200rem / @htmlFontSize;
+		height: 60rem / @htmlFontSize;
 		float: left;
-		margin: 65px;
+		margin: 65rem / @htmlFontSize;
 		overflow: hidden;
 		z-index: 15;
 
@@ -46,24 +46,33 @@
 			}
 
 			.block-title { 
-				padding: 50px 15px 10px 75px !important;
+				padding: 50rem / @htmlFontSize 15rem / @htmlFontSize 10rem / @htmlFontSize 75rem / @htmlFontSize !important;
 				line-height: auto;
 			}
 
-			width: 280px;
-			margin: 25px;
-			top: 1px;
-			height: 340px;
-			-webkit-box-shadow: 7px 7px 0px 0px rgba(50, 50, 50, 0.3);
-			-moz-box-shadow:    7px 7px 0px 0px rgba(50, 50, 50, 0.3);
-			box-shadow:         7px 7px 0px 0px rgba(50, 50, 50, 0.3);
+			.block-text { 
+				opacity: 1;
+			}
+
+			.block-w-logo {
+				opacity: 1;
+			}
+
+			width: 280rem / @htmlFontSize;
+			margin: 25rem / @htmlFontSize;
+			top: 1rem / @htmlFontSize;
+			height: 340rem / @htmlFontSize;
+			-webkit-box-shadow: 7rem / @htmlFontSize 7rem / @htmlFontSize 0rem / @htmlFontSize 0rem / @htmlFontSize rgba(50, 50, 50, 0.3);
+			-moz-box-shadow:    7rem / @htmlFontSize 7rem / @htmlFontSize 0rem / @htmlFontSize 0rem / @htmlFontSize rgba(50, 50, 50, 0.3);
+			box-shadow:         7rem / @htmlFontSize 7rem / @htmlFontSize 0rem / @htmlFontSize 0rem / @htmlFontSize rgba(50, 50, 50, 0.3);
 		}
 
 		.block-top {
 			position: relative;
 			background: #60b06a;
-			height: 280px;
+			height: 280rem / @htmlFontSize;
 			z-index: 20;
+			cursor: default;
 		}
 
 		.block-hover {
@@ -71,18 +80,30 @@
 			display: block;
 			position: relative;
 			background: #98c25a;
-			height: 60px;
+			height: 60rem / @htmlFontSize;
 			opacity: 0;
 			z-index: 19;
-			top: -60px;
+			top: -60rem / @htmlFontSize;
 			text-decoration: none;
 		}
 
 		.block-hv-text {
+			position: relative;
 			color: #fff;
-			font-size: 20px;
-			padding: 0 15px 0 75px;
-			line-height: 60px;
+			font-size: 20em / @htmlFontSize;
+			padding: 0 15rem / @htmlFontSize 0 75rem / @htmlFontSize;
+			line-height: 60rem / @htmlFontSize;
+
+			&:before {
+				content: "";
+				width: 13rem / @htmlFontSize;
+				height: 9rem / @htmlFontSize;
+				position: absolute;
+				top: 50%;
+				left: 50rem / @htmlFontSize;
+				margin-top: -5rem / @htmlFontSize;
+				background: url(../img/index_arrows.png);
+			}
 		}
 
 		.block-title {
@@ -90,17 +111,55 @@
 			display: inline-block;
 			color: #fff;
 			text-transform: uppercase;
-			font-size: 25px;
+			font-size: 25em / @htmlFontSize;
 			font-weight: 300;
 			padding: 0 0 0 0;
-			line-height: 60px;
+			line-height: 60rem / @htmlFontSize;
 		}
 
 		.block-text {
+			.transition;
 			color: #fff;
-			font-size: 12px;
-			padding: 0 15px 0 75px;
+			width: 190rem / @htmlFontSize;
+			font-size: 12em / @htmlFontSize;
+			padding: 0 15rem / @htmlFontSize 0 75rem / @htmlFontSize;
 			opacity: 0;
 		}
+
+		.block-w-logo {
+			.transition;
+			width: 75rem / @htmlFontSize;
+			height: 70rem / @htmlFontSize;
+			background: url(../img/logo_white.png) no-repeat center top;
+			position: absolute;
+			top: 65rem / @htmlFontSize;
+			opacity: 0;
+
+			&:after {
+				content: attr(data-date);
+				position: absolute;
+				top: 55rem / @htmlFontSize;
+				color: #fff;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.slideshow-over {
+	.full-abs;
+	top: 30px;
+	z-index: 10;
+	background: url(../img/index_over.png) no-repeat 0 0 e('/') auto 100%;
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 100%;
+		width: 100%;
+		height: 100%;
+		background: url(../img/trans.png);
 	}
 }
