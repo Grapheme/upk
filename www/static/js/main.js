@@ -26,6 +26,10 @@ $(window).resize(function(){
 	slide_over();
 });
 
+$(window).load(function(){
+	$('.fotorama-slide, .slideshow-over, .slideshow-after').addClass('loaded');
+});
+
 $('.intranet').click(function(e){
 	e.stopPropagation();
 	$(this).addClass('active');
