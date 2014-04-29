@@ -17,3 +17,18 @@ $(function(){
 
 	positionitems();
 });
+
+$('.intranet').click(function(e){
+	e.stopPropagation();
+	$(this).addClass('active');
+	$('.sign-up').addClass('active');
+});
+
+$('.sign-up').click(function(e){
+	e.stopPropagation();
+});
+
+$(document).click(function(){
+	$('.intranet').removeClass('active');
+	$('.sign-up').removeClass('active');
+});
