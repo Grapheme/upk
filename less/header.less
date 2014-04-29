@@ -1,7 +1,7 @@
 .header {
 	position: relative;
 	width: @wrap-width;
-	height: 140px;
+	height: 140rem / @htmlFontSize;
 
 
 	.logo {
@@ -25,8 +25,8 @@
 
 .top-menu {
 	position: absolute;
-	line-height: 30px;
-	top: 35px;
+	line-height: 30rem / @htmlFontSize;
+	top: 35rem / @htmlFontSize;
 	left: 0;
 	right: 0;
 
@@ -43,26 +43,26 @@
 		}
 
 		a {
-			font-size: 12px;
+			font-size: 12em / @htmlFontSize;
 			font-style: italic;
 			text-decoration: none;
 			color: @header-text-col;
-			padding: 0 25px 0 15px;
+			padding: 0 25rem / @htmlFontSize 0 15rem / @htmlFontSize;
 
 			&:before {
 				content: "";
-				width: 13px;
-				height: 13px;
+				width: 13rem / @htmlFontSize;
+				height: 13rem / @htmlFontSize;
 				background: url(../img/intranet.png);
 				display: inline-block;
-				margin: 0 5px 0 0;
+				margin: 0 5rem / @htmlFontSize 0 0;
 			}
 		}
 	}
 }
 
 .sub-nav {
-	height: 33px;
+	height: 33rem / @htmlFontSize;
 	.trng-line;
 
 	.sub-item {
@@ -72,10 +72,10 @@
 
 		a {
 			color: #fff;
-			font-size: 12px;
+			font-size: 12em / @htmlFontSize;
 			font-style: italic;
 			text-decoration: none;
-			padding: 0 10px;
+			padding: 0 10rem / @htmlFontSize;
 		}
 
 		&:hover {
@@ -96,20 +96,20 @@
 
 	.nav-item {
 		.transition(border, ease, .25s);
-		margin: 0 35px 0 0;
+		margin: 0 35rem / @htmlFontSize 0 0;
 		-moz-box-sizing: border-box;
     	box-sizing: border-box;
-    	line-height: 35px;
-    	height: 35px;
+    	line-height: 35rem / @htmlFontSize;
+    	height: 35rem / @htmlFontSize;
 
     	&:hover {
-    		border-bottom: 4px solid @header-text-col;
+    		border-bottom: 4rem / @htmlFontSize solid @header-text-col;
     	}
 
 		a {
 			text-transform: uppercase;
 			text-decoration: none;
-			font-size: 16px;
+			font-size: 1em;
 			color: @header-text-col;
 		}
 	}
@@ -120,7 +120,7 @@
 		.language {
 			a {
 				display: block;
-				padding: 5px 7px;
+				padding: 5rem / @htmlFontSize 7rem / @htmlFontSize;
 				background: #b8b7b6;
 				text-decoration: none;
 				font-weight: 100;
