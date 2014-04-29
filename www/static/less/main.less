@@ -115,6 +115,7 @@ h1 {
 main {
     position: relative;
     width: @wrap-width;
+    min-height: 29rem;
     margin: 132rem / @htmlFontSize 0 112rem / @htmlFontSize;
 
     background: url(../img/bg.png) no-repeat;
@@ -464,6 +465,17 @@ main {
 
             background: url(../img/dot.png) no-repeat center center;
         }
+    }
+}
+
+.typical-link {
+    .transition;
+    border-bottom: 1px solid;
+    text-decoration: none;
+    color: @colorGreen;
+
+    &:hover {
+        border-color: transparent;
     }
 }
 
