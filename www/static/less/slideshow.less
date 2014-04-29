@@ -5,6 +5,8 @@
 	min-width: @wrap-width;
 
 	.slide-title {
+		.transition(opacity, ease, 1s);
+		opacity: 0;
 		position: absolute;
 		left: 550rem / @htmlFontSize;
 		width: @wrap-width - 550rem / @htmlFontSize;
@@ -29,7 +31,7 @@
 	z-index: 10;
 
 	.index-block {
-		.transition;
+		.transition(all, ease, .5s);
 		opacity: 0;
 		position: relative;
 		top: 0;
