@@ -349,18 +349,53 @@ main {
         top: 0;
         right: 0;
         width: 184px;
-        padding: .5rem 0;
-        background: url(../img/triangle.jpg) repeat-x 0 bottom @colorGreen;
+        padding: .5rem 0 1rem;
+        background: url(../img/triangle.jpg) repeat-x 0 bottom #00AE61;
 
         .press-btn {
-            padding: .5rem 0 1em;
+            padding: .5rem 0 .5em;
             text-align: center;
             font-size: 20em / @htmlFontSize;
 
             color: #fff;
+            cursor: pointer;
+        }
+        .articles {
+            .transition;
+            height: 0;
+            overflow: hidden;
+
+            &.active {
+                height: auto;
+            }
         }
         .art-item {
+            position: relative;
             font-size: 12em / @htmlFontSize;
+            margin: 0 0 1rem;
+            padding: 0 .5rem 0 2.5rem;
+
+            &:before {
+                content: "";
+                position: absolute;
+                left: .7rem;
+                display: inline-block;
+                width: 1.3rem;
+                height: 1.3rem;
+                margin: 0 .5rem 0 0;
+
+                background: url(../img/logo_white.png) 0 0 e('/') 100% 100% no-repeat;
+                //vertical-align: middle;
+            }
+            &:after {
+                content: attr(data-date);
+                display: block;
+                color: #fff;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
         }
     }
     .news-list {
