@@ -522,6 +522,54 @@ address {
     height: 400px;
 }
 
+.apply-form {
+    padding-left: 35px;
+
+    .apply-table {
+         margin: 0 0 35px;
+    }
+
+    .apply-row {
+        height: 40px;
+
+        label {
+            padding: 0 25px 0 0;
+            font-size: 12px;
+            font-style: italic;
+            color: #aaa;
+        }
+
+        input {
+            border: 1px solid #808080;
+        }
+    }
+
+    .apply-btn {
+        .transition;
+        position: relative;
+        background: #00B366;
+        color: #fff;
+        font: 14px 'Open Sans',sans-serif;
+        text-transform: uppercase;
+        border: 0 none;
+        line-height: 55px;
+        padding: 0 15px 0 60px;
+
+        &:hover {
+            background: @colorGreenDark;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url(../img/logo_white.png) no-repeat center center;
+            width: 60px;
+            height: 100%;
+        }
+    }
+}
 
 /* ==========================================================================
    Helper classes
