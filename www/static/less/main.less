@@ -282,10 +282,13 @@ main {
         color: @colorGreenDark;
         font-size: 20em / @htmlFontSize;
     }
+    .more-desc {
+        font-size: 13em / @htmlFontSize;
+    }
 
     h2 {
         .uppercase;
-        margin: 0 0 20rem / @htmlFontSize;
+        margin: 32rem / @htmlFontSize 0 0;
         font-size: 20em / @htmlFontSize;
     }
     
@@ -293,9 +296,6 @@ main {
         width: 75%;
     }
 
-    .hist-item {
-        margin: 0 0 2rem;
-    }
     .hist-item-cont {
         position: relative;
 
@@ -325,7 +325,7 @@ main {
         }
         h3 {
             margin: 0;
-            padding: 20rem / @htmlFontSize 0 20rem / @htmlFontSize 94rem / @htmlFontSize;
+            padding: 25rem / @htmlFontSize 0 15rem / @htmlFontSize 94rem / @htmlFontSize;
 
             font-size: 14em / @htmlFontSize;
         }
@@ -344,12 +344,32 @@ main {
     width: @wrap-width;
     padding: 0 245px;
 
+    .press-about-us {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 184px;
+        padding: .5rem 0;
+        background: url(../img/triangle.jpg) repeat-x 0 bottom @colorGreen;
+
+        .press-btn {
+            padding: .5rem 0 1em;
+            text-align: center;
+            font-size: 20em / @htmlFontSize;
+
+            color: #fff;
+        }
+        .art-item {
+            font-size: 12em / @htmlFontSize;
+        }
+    }
     .news-list {
         padding: 0 0 0 94rem / @htmlFontSize;
 
         h3 {
             position: relative;
-            .uppercase;            
+            .uppercase;
+            margin: 32rem / @htmlFontSize 0 8rem / @htmlFontSize;        
             padding: 0 0 0 73rem / @htmlFontSize;
             color: @colorGreen;
             font-size: 26em / @htmlFontSize;        
