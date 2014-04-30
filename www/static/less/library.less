@@ -65,6 +65,24 @@ ul, li {
 	}
 }
 
+.trng-border-shadow(@color: @colorGreenDark) {
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: -1px; right: -1px; bottom: -1px; left: -1px;
+		background: @color;
+		-webkit-transform: skew(-15deg);
+		-ms-transform: skew(-15deg);
+		transform: skew(-15deg);
+		-webkit-box-shadow: inset 0 0px 16px 0 rgba(0,0,0,0.3);
+		-moz-box-shadow: inset 0 0px 16px 0 rgba(0,0,0,0.3);
+		box-shadow: inset 0 0px 16px 0 rgba(0,0,0,0.3);
+
+		.transition();
+	}
+}
+
 .trng-right-border(@color: @colorGreenDark) {
 	&:before {
 		content: "";

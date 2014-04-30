@@ -38,7 +38,8 @@
 
 	&.active {
 		overflow: visible;
-		height: 85px;
+		padding-top: 10px;
+		height: 75px;
 		width: 150px;
 		opacity: 1;
 	}
@@ -56,10 +57,6 @@
         color: #b0d8b5;
         font-size: 12em / @htmlFontSize;
         vertical-align: middle;
-
-        &:first-child {
-        	margin-top: 15px;
-        }
 
         &:focus {
             outline: none;
@@ -84,6 +81,14 @@
             font-style: italic;  
         }
     }
+
+    input.invalid {
+    	border: 1px solid #A04D00;
+    }
+
+    em {
+    	display: none !important;
+    }
 }
 
 .sign-up-btn {
@@ -98,7 +103,18 @@
 	right: 17px;
 	width: 150px;
 	height: 37px;
+	background: transparent;
+	border: 0 none;
 	.trng-border(#52b34f);
+
+	&:active {
+		outline: 0 none; 
+		.trng-border-shadow(#52b34f);
+	}
+
+	&:hover {
+		.trng-border(@colorGreenLight);
+	}
 }
 
 .top-menu {

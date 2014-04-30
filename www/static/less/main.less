@@ -163,6 +163,14 @@ main {
         color: #fff;
     }
 
+    em {
+        display: none !important;
+    }
+
+    input.invalid {
+        border: 1px solid #A04D00;
+    }
+
     input {
         .box-sizing;
         height: 24rem / @htmlFontSize;
@@ -623,6 +631,12 @@ address {
             width: 60px;
             height: 100%;
         }
+    }
+
+    em.invalid {
+        font-size: 12px;
+        color: red;
+        margin-left: 20px;
     }
 }
 
