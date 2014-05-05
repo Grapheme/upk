@@ -1274,6 +1274,13 @@ address .mails a:before {
   border: 1px solid #808080;
   font-size: .9em;
 }
+.apply-form .apply-row .state-error .invalid {
+  border-color: #FF0000;
+}
+.apply-form .apply-row .state-error em.invalid {
+  visibility: hidden;
+  display: none;
+}
 .apply-form .apply-btn {
   -webkit-transition: all ease 0.25s;
   -moz-transition: all ease 0.25s;
