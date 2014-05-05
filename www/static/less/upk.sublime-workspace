@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"link",
+				"link-share"
+			],
+			[
+				"popup",
+				"popup-body"
+			],
+			[
+				"look",
+				"look-on-youtube"
+			],
+			[
+				"pop",
+				"popup-body"
+			],
+			[
+				"succ",
+				"success-move"
+			],
+			[
+				"popup-",
+				"popup-body"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"go",
+				"google-tip"
+			],
+			[
+				"show",
+				"show-text"
+			],
+			[
+				"btn",
+				"btn-success"
+			],
+			[
+				"tips",
+				"tipsCont"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"qu",
+				"quest-itm"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"shufl",
+				"shuffleArr"
+			],
+			[
+				"quest",
+				"questArr"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"html",
+				"htmlFontSize"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"whom",
+				"whom-right"
+			],
+			[
+				"who",
+				"whom-right"
+			],
+			[
+				"promo",
+				"promo-container"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"school-facs",
+				"school-facs-list"
+			],
+			[
+				"dd3",
+				"dd3-content"
+			],
+			[
+				"disa",
+				"disabled-link"
+			],
+			[
+				"course",
+				"course-full-link"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pop-cou",
+				"pop-courses-item"
+			],
+			[
+				"mai",
+				"main-col"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"main",
+				"mainCol"
+			],
+			[
+				"aside",
+				"asideCol"
+			],
+			[
+				"bo",
+				"bottom-left"
+			],
+			[
+				"pro",
+				"projects-item"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/upk/about.html",
+		"/Library/WebServer/Documents/upk/news.html",
+		"/Library/WebServer/Documents/upk/investors.html",
+		"/Library/WebServer/Documents/upk/less/main.less",
+		"/Library/WebServer/Documents/upk/index.html",
+		"/Library/WebServer/Documents/upk/contacts.html",
+		"/Library/WebServer/Documents/upk/js/main.js",
+		"/Library/WebServer/Documents/upk/css/main.css",
+		"/Library/WebServer/Documents/upk/.gitignore",
+		"/Library/WebServer/Documents/upk/less/library.less",
+		"/Library/WebServer/Documents/upk/less/btns.less",
+		"/Library/WebServer/Documents/Grapheme_reload/less/main.less",
+		"/Library/WebServer/Documents/upk/less/header.less",
+		"/Library/WebServer/Documents/upk/services.html",
+		"/Users/toomean/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/Library/WebServer/Documents/goomt/css/fontello.css",
+		"/Library/WebServer/Documents/goomt/css/main.css",
+		"/Library/WebServer/Documents/goomt/js/main.js",
+		"/Users/toomean/Downloads/fontello-5bdae4e4/css/fontello.css",
+		"/Library/WebServer/Documents/goomt/js/vendor/jquery.mCustomScrollbar.concat.min.js",
+		"/Library/WebServer/Documents/goomt/css/jquery.mCustomScrollbar.css",
+		"/Library/WebServer/Documents/goomt/index.html",
+		"/Library/WebServer/Documents/goomt/fontello-981a3dfb/css/fontello.css",
+		"/Library/WebServer/Documents/goomt/logged-in.html",
+		"/Library/WebServer/Documents/grapheme_reload/less/gridpak.less",
+		"/Library/WebServer/Documents/grapheme_reload/css/main.css",
+		"/Library/WebServer/Documents/grapheme_reload/less/main.css",
+		"/Library/WebServer/Documents/grapheme_reload/less/main.less",
+		"/Users/toomean/Library/Application Support/Sublime Text 2/Packages/Less2Css/README.md",
+		"/Users/toomean/Library/Application Support/Sublime Text 2/Packages/User/less2css.sublime-settings",
+		"/Users/toomean/Library/Application Support/Sublime Text 2/Packages/LESS/README.md",
+		"/Library/WebServer/Documents/grapheme_reload/robots.txt",
+		"/Library/WebServer/Documents/grapheme_reload/css/main.less",
+		"/Library/WebServer/Documents/universiality/build/css/bootstrap.min.css",
+		"/Library/WebServer/Documents/universiality/build/css/smartadmin-main.css",
+		"/Library/WebServer/Documents/universiality/application/views/mails/includes/header.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/includes/footer.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/contacts.php",
+		"/Library/WebServer/Documents/universiality/css/about.css",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/contacts-4-tutors.php",
+		"/Library/WebServer/Documents/universiality/application/views/headers/user-cabinet.php",
+		"/Library/WebServer/Documents/universiality/application/views/users_interface/courses/teach/project/new-step-1.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/index.php",
+		"/Library/WebServer/Documents/universiality/application/views/users_interface/cabinet/create-school.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/includes/subscribe-course-block.php",
+		"/Library/WebServer/Documents/universiality/application/views/html/start-project-task.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/lesson.php",
+		"/Library/WebServer/Documents/universiality/application/views/admin_interface/forms/profile-admin.php",
+		"/Library/WebServer/Documents/universiality/application/controllers/guests_interface.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/list.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/school-faculty.php",
+		"/Library/WebServer/Documents/universiality/css/new-main.css",
+		"/Library/WebServer/Documents/universiality/application/views/school_interface/includes/head.php",
+		"/Library/WebServer/Documents/universiality/application/views/admin_interface/includes/head.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/includes/head.php",
+		"/Library/WebServer/Documents/universiality/application/views/users_interface/includes/head.php",
+		"/Library/WebServer/Documents/universiality/application/views/school_interface/includes/header.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/modal/sign-in-request.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/modal/forgot-password.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/forms/link-accounts.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/forms/sign-up.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/modal/sign-in.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/modal/new-password.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/forms/new-password.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/forms/forgot.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/modal/sign-up.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/forms/sign-in.php",
+		"/Library/WebServer/Documents/universiality/js/cabinet/private-course.js",
+		"/Library/WebServer/Documents/DirectMelody/css/main.css",
+		"/Library/WebServer/Documents/universiality/application/views/private_courses/forms/curator-manage-task.php",
+		"/Library/WebServer/Documents/universiality/application/views/private_courses/curator/course-tasks.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/includes/course-author-block.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/lesson-preview.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/course-preview.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/lessons.php",
+		"/Library/WebServer/Documents/universiality/application/views/private_courses/student/task-time-line.php",
+		"/Library/WebServer/Documents/universiality/application/views/private_courses/curator/students-tasks.php",
+		"/Library/WebServer/Documents/universiality/application/config/database.php",
+		"/Library/WebServer/Documents/universiality/application/views/users_interface/courses/teach/project/list.php",
+		"/Library/WebServer/Documents/universiality/application/views/users_interface/courses/study/project/tasks-list.php",
+		"/Library/WebServer/Documents/universiality/application/core/MY_Controller.php",
+		"/Library/WebServer/Documents/universiality/application/config/constants.php",
+		"/var/folders/3r/5bml47k15yn5nt21bw2hsb4c0000gn/T/sublime-sftp-browse-1397141368/panda/var/www/parshenin/data/www/pandadigital.ru/js/main.js",
+		"/var/folders/3r/5bml47k15yn5nt21bw2hsb4c0000gn/T/sublime-sftp-browse-1397139208/panda/var/www/parshenin/data/www/pandadigital.ru/css/main.css",
+		"/var/folders/3r/5bml47k15yn5nt21bw2hsb4c0000gn/T/sublime-sftp-browse-1397139182/panda/var/www/parshenin/data/www/pandadigital.ru/index.html",
+		"/Library/WebServer/Documents/universiality/application/views/mails/comment-in-my-course.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/comment-in-my-task.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/course-create-task.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/forgot.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/new-message.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/new-notification-message.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/notified-account-status.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/notified-course-locked.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/notified-course-moderation.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/notified-replenishment-balance.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/notified-withdraw-balance.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/remove-teacher-school.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/request-call.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/request-school-teacher.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/review-in-my-course.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/signup-admin.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/signup-school.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/signup.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/subscribe-course.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/subscribe-private-course.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/after-activation-account.php",
+		"/Library/WebServer/Documents/universiality/application/views/mails/notified-account-expert.php",
+		"/Users/toomean/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/panda",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/terms-of-service.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/treaty.php",
+		"/Library/WebServer/Documents/universiality/css/mails.css",
+		"/Library/WebServer/Documents/universiality/application/views/mails/includes/head.php",
+		"/Library/WebServer/Documents/universiality/application/views/users_interface/pages/start-page.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/profile.php",
+		"/Library/WebServer/Documents/universiality/application/views/school_interface/courses/teach/project/list.php",
+		"/Library/WebServer/Documents/universiality/application/views/html/project-task-comment.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/project-discussions.php",
+		"/Library/WebServer/Documents/universiality/application/views/html/project-task-answer-comment.php",
+		"/Library/WebServer/Documents/universiality/build/css/smartadmin-production_unminified.css",
+		"/Library/WebServer/Documents/universiality/application/views/school_interface/includes/sidebar.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/signatories.php",
+		"/Library/WebServer/Documents/universiality/application/views/school_interface/pages/start-page.php",
+		"/Library/WebServer/Documents/universiality/application/views/users_interface/forms/courses/lesson-content-blocks.php",
+		"/Library/WebServer/Documents/universiality/application/views/users_interface/forms/courses/manage-lessons.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/course.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/course-review-landing-page.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/course-tasks-landing-page.php",
+		"/Library/WebServer/Documents/universiality/application/views/guests_interface/market/lessons-landing-page.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Регистрация компании-инициатора проекта",
+			"<li>",
+			"color: red;",
+			"padding-box",
+			"1.2",
+			"cross",
+			"<span>",
+			" completed",
+			"<div>",
+			"exit",
+			"auth",
+			"background:",
+			"cover no-repeat;",
+			"username",
+			"@htmlFontSize",
+			"href=\"#\"",
+			"href=\"\"",
+			"<li class=\"nav-item\">",
+			"<li>",
+			"pointer signup-link",
+			"'pointer signup-link no-clickable'",
+			"'pointer signup-link no-clickable' : ''",
+			"20",
+			"musta.png",
+			"100%;\">",
+			"ifra",
+			".ab",
+			".about",
+			"Как это работает",
+			"Что можно при создании курса?",
+			"width-150",
+			"Изменить проект",
+			"Создать школу",
+			"$courses[$i]",
+			"$languages",
+			"$course",
+			"<?php for",
+			"<? for",
+			"$course",
+			"100px",
+			"btn",
+			"width-200",
+			".width",
+			"Курсы факультета",
+			"У вас уже есть аккаунт",
+			"У вас уже есть аккаунт?",
+			"Забыли пароль?",
+			"-20",
+			"margin-bottom-5 ",
+			"Список проектов",
+			"Приватный проект",
+			"У Вас нет опубликованных версий проекта!",
+			"У Вас нет опубликованных версий проекта! ",
+			"Проект по заданию",
+			"Список проектов",
+			"Задание к блоку",
+			"Список проектов",
+			"float: left;",
+			"span",
+			"section",
+			"&lt;",
+			"2",
+			"Условия пользования",
+			"Список обучаемых курсов",
+			"<div>",
+			".pull-right {",
+			"class=\"teacher__flag\"",
+			"-10",
+			"-2",
+			"Обсуждения в классе",
+			"Подписчики курса",
+			"Что вы хотите сделать?",
+			"60px",
+			"18",
+			"15",
+			".bg",
+			"Система статистики курса",
+			"-4",
+			"<div class=\"margin-top-20 margin-left-20\">\n			Город\n		</div>\n		<div id=\"pie-chart-city\" class=\"chart\"></div>",
+			"-9",
+			"-4",
+			"Система статистики",
+			"class=\"txt-color-white",
+			"<button type=\"submit\" class=\"",
+			"width-150",
+			"<button type=\"submit\" class=\"",
+			" class=\"txt-color-white",
+			"<button type=\"submit\" class=\"",
+			"Система статистики курса",
+			"character_limiter(strip_tags($techer['about']),260",
+			"об ",
+			"Подробнее об",
+			"Об ",
+			"Об",
+			"Об ",
+			"Об",
+			"Об ",
+			"Об",
+			"Об школе",
+			"оригинал",
+			"оригина",
+			"p",
+			"-9",
+			"<a href=\"#\">",
+			"<a class=\"<?=($this->uri->segment(2)",
+			"<li class=\"<?=($this->uri->segment(2)",
+			"-3",
+			".school-tutors",
+			"margin-bottom-20",
+			"col-lg-3 display-inline",
+			"display-inline",
+			"-9",
+			"width-100",
+			"<li>",
+			"margin-bottom-5",
+			"888",
+			"88",
+			"Система статистики курса",
+			"i class=\"",
+			"ourse-link",
+			".uppercase",
+			"profile-social-link",
+			"schools-item",
+			"-3",
+			"btn ",
+			"-12",
+			"<div>",
+			"3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}
