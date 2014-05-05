@@ -36,6 +36,11 @@ $(window).load(function(){
 	$('.fotorama-slide, .slideshow-over, .slideshow-after').addClass('loaded');
 });
 
+$('.index-block').on('touchstart', function(){
+	$('.index-block').removeClass('active-block');
+	$(this).addClass('active-block');
+});
+
 $('.intranet').click(function(e){
 	e.stopPropagation();
 	$(this).addClass('active');
