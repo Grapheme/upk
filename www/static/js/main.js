@@ -147,4 +147,4 @@ function runFormValidation(){
 			$(form).ajaxSubmit(options);
 		}
 	});
-}
+};
