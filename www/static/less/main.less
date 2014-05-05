@@ -180,7 +180,7 @@ main {
 
         background: @colorGreen;
 
-        color: #b0d8b5;
+        color: #fff;
         font-size: 12em / @htmlFontSize;
         vertical-align: middle;
 
@@ -292,12 +292,17 @@ main {
     }
     .more-desc {
         font-size: 13em / @htmlFontSize;
+
+        strong {
+            font-weight: 600;
+        }
     }
 
     h2 {
         .uppercase;
         margin: 32rem / @htmlFontSize 0 0;
         font-size: 20em / @htmlFontSize;
+        font-weight: 600;
     }
     
     .hist-list {
@@ -336,6 +341,7 @@ main {
             padding: 25rem / @htmlFontSize 0 15rem / @htmlFontSize 94rem / @htmlFontSize;
 
             font-size: 14em / @htmlFontSize;
+            font-weight: 600;
         }
         .hist-desc {
             padding: 0 0 0 94rem / @htmlFontSize;
@@ -415,13 +421,14 @@ main {
             margin: 32rem / @htmlFontSize 0 8rem / @htmlFontSize;        
             padding: 0 0 0 73rem / @htmlFontSize;
             color: @colorGreen;
-            font-size: 26em / @htmlFontSize;        
+            font-size: 26em / @htmlFontSize;
+            font-weight: 400;    
             
             &:before {
                 content: " " attr(data-date) " ";
                 position: absolute;
-                top: 5rem / @htmlFontSize;
-                left: 0;
+                top: 3rem / @htmlFontSize;
+                left: -47rem / @htmlFontSize;
                 display: inline-block;
                 width: 73px;
 
@@ -508,7 +515,20 @@ main {
 
 .contacts {
     .more-desc-part {
-        font-size: 1.2em;
+        font-size: 1em; 
+    }
+}
+
+.tenders {
+    .content {
+        border-left: .6rem solid @colorGreenLight;
+        margin: 0 0 0 5.51429rem;
+        padding: 0 0 0 1rem;
+        .desc {
+            margin: 0 0 1.5rem;
+            color: #333;
+            font-size: 14em / @htmlFontSize;
+        }
     }
 }
 
@@ -603,7 +623,12 @@ address {
         }
 
         input {
+            width: 14rem;
+            height: 22rem / @htmlFontSize;
+            padding: 0 0 0 .2rem;
             border: 1px solid #808080;
+
+            font-size: .9em;
         }
     }
 
