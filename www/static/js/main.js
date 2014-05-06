@@ -19,14 +19,20 @@ function text_center() {
 	});
 }
 
+function stiky() {
+	$('.page-wrapper').css('min-height', $(window).height() - 200);
+}
+
 $(function(){
 	text_center();
 	slide_over();
 	positionitems();
+	stiky();
 });
 
 $(window).resize(function(){
 	slide_over();
+	stiky();
 });
 
 $(window).load(function(){

@@ -225,6 +225,9 @@ main {
 /* ==========================================================================
    Section about
    ========================================================================== */
+
+html, body {height: 100vh;}
+
 .content {
     padding: 0 0 0 94rem / @htmlFontSize;
 }
@@ -696,6 +699,43 @@ address {
         &:nth-child(even) {
             background: lighten(@colorGreen, 30%)
         }
+    }
+}
+
+.not-found {
+    position: relative;
+    min-height: 400px;
+
+    .not-found-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -150px;
+        margin-left: -250px;
+        width: 503px;
+        min-height: 192px;
+        background: url(../img/404.png) no-repeat;
+        background-position: center top;
+
+        .not-found-text {
+            padding-top: 250px;
+
+            span {
+                display: block;
+                text-align: center;
+                padding: 5px 0;
+
+                a {
+                    color: #04ad61;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html, body {
+        min-height: 135%;
     }
 }
 
