@@ -1,4 +1,5 @@
 .footer {
+	position: relative;
 	height: 45rem / @htmlFontSize;
 	width: @wrap-width;
 	line-height: 35rem / @htmlFontSize;
@@ -16,14 +17,17 @@
 		font-size: 12em / @htmlFontSize;
 		text-transform: uppercase;
 		float: left;
+		line-height: 22px;
 	}
 
 	.sub-nav {
 		display: inline-block;
 		position: relative;
-		margin: 0 25rem / @htmlFontSize;
+		margin: 0 60rem / @htmlFontSize;
 		height: 30rem / @htmlFontSize;
+		top: 2px;
 		.trng-line(38px);
+
 	}
 
 	.bot-cont {
@@ -38,9 +42,12 @@
 	}
 
 	.dev {
+		position: absolute;
 		font-size: 12em / @htmlFontSize;
 		float: right;
-		margin-right: 25rem / @htmlFontSize;
+		top: 0;
+		right: 25rem / @htmlFontSize;
+		line-height: 43px;
 		color: #000;
 
 		.grphm-copy {
