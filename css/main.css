@@ -694,6 +694,9 @@ h2 {
 .index-blocks .index-block .block-text img {
   display: none;
 }
+.index-blocks .index-block .block-text p {
+  margin-top: 0;
+}
 .index-blocks .index-block .block-w-logo {
   -webkit-transition: all ease 0.25s;
   -moz-transition: all ease 0.25s;
@@ -816,10 +819,10 @@ h2 {
   -moz-transition: all ease 0.25s;
   transition: all ease 0.25s;
   text-decoration: none;
-  color: #000;
+  color: #aaaaaa;
 }
 .footer .dev .grphm-copy:hover {
-  opacity: .65;
+  color: #000;
 }
 html {
   font: 14px 'Open Sans', sans-serif;
@@ -1023,6 +1026,9 @@ body {
 .about .hist-list {
   width: 75%;
 }
+.about .hist-item {
+  margin: 0 0 1rem;
+}
 .about .hist-item-cont {
   position: relative;
 }
@@ -1056,7 +1062,7 @@ body {
 }
 .about .hist-item-cont .hist-desc {
   padding: 0 0 0 6.71428571rem;
-  background: url(../img/dot.png) repeat-y 1.42857143rem center;
+  background: url(../img/dot.png) repeat-y 1.42857143rem 1rem;
   font-size: 0.92857143em;
 }
 .news {
@@ -1086,16 +1092,16 @@ body {
   -webkit-transition: all ease 0.25s;
   -moz-transition: all ease 0.25s;
   transition: all ease 0.25s;
-  height: 0;
+  max-height: 0;
   overflow: hidden;
 }
 .news .press-about-us .articles.active {
-  height: auto;
+  max-height: 200px;
 }
 .news .press-about-us .art-item {
   position: relative;
   font-size: 0.85714286em;
-  margin: 0 0 1rem;
+  margin: 1.25rem 0;
   padding: 0 .5rem 0 2.5rem;
 }
 .news .press-about-us .art-item:before {
@@ -1326,7 +1332,7 @@ address .mails a:before {
   border: 0 none;
   line-height: 55px;
   padding: 0 15px 0 60px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 .apply-form .apply-btn:hover {
   background: #00984b;
