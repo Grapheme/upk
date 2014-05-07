@@ -379,17 +379,17 @@ html, body {height: 100vh;}
         }
         .articles {
             .transition;
-            height: 0;
+            max-height: 0;
             overflow: hidden;
 
             &.active {
-                height: auto;
+                max-height: 200px;
             }
         }
         .art-item {
             position: relative;
             font-size: 12em / @htmlFontSize;
-            margin: 0 0 1rem;
+            margin: 1.25rem 0;
             padding: 0 .5rem 0 2.5rem;
 
             &:before {
