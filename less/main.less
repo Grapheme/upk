@@ -423,19 +423,18 @@ html, body {height: 100vh;}
         }
     }
     .news-list {
-        padding: 0 0 0 94rem / @htmlFontSize;
+        padding: 0 0 0 244rem / @htmlFontSize;
 
         h3 {
             position: relative;
             .uppercase;
-            margin: 32rem / @htmlFontSize 0 8rem / @htmlFontSize;        
-            padding: 0 0 0 73rem / @htmlFontSize;
+            margin: 0 0 8rem / @htmlFontSize;
             color: @colorGreen;
             font-size: 26em / @htmlFontSize;
             font-weight: 400;    
             
             &:before {
-                content: " " attr(data-date) " ";
+                /*content: " " attr(data-date) " ";
                 position: absolute;
                 top: 3rem / @htmlFontSize;
                 left: -47rem / @htmlFontSize;
@@ -444,13 +443,17 @@ html, body {height: 100vh;}
 
                 color: @colorGreen;
                 font-size: 20em / 27;
-                font-weight: 300;
+                font-weight: 300;*/
             }
+        }
+
+        .news-item {
+            position: relative;
+            padding: 0 0 120rem / @htmlFontSize;
         }
 
         .news-desc {
             width: 67%;
-            padding: 0 0 0 73rem / @htmlFontSize;
             font-size: 14em / @htmlFontSize;
             font-weight: 300;
 
@@ -461,6 +464,42 @@ html, body {height: 100vh;}
                 display: block;
                 margin: 0 0 1.5rem;
             }
+        }
+
+        .news-date {
+            margin: 0 0 5rem / @htmlFontSize;
+            color: @colorGreen;
+            font-size: 20em / @htmlFontSize;
+            font-weight: 300;
+        }
+
+        .news-photo {
+            overflow: hidden;
+            left: -200rem / @htmlFontSize;
+            top: 42rem / @htmlFontSize;
+            position: absolute;
+            width: 160px;
+            height: 120px;
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+
+    .news-one {
+        h3 {
+            padding-bottom: 25px;
+        }
+        .news-date {
+            position: absolute;
+            left: -145rem / @htmlFontSize;
+            top: 5rem / @htmlFontSize;
+            margin: 0;
+        }
+        .news-desc {
+            width: auto;
+        }
+        .fotorama {
+            margin: 50px 0;
         }
     }
 
