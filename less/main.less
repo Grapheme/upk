@@ -434,24 +434,17 @@ html, body {height: 100vh;}
             color: @colorGreen;
             font-size: 26em / @htmlFontSize;
             font-weight: 400;    
-            
-            &:before {
-                /*content: " " attr(data-date) " ";
-                position: absolute;
-                top: 3rem / @htmlFontSize;
-                left: -47rem / @htmlFontSize;
-                display: inline-block;
-                width: 73px;
 
+            a {
                 color: @colorGreen;
-                font-size: 20em / 27;
-                font-weight: 300;*/
+                font-weight: 400;
+                text-decoration: none;
             }
         }
 
         .news-item {
             position: relative;
-            padding: 0 0 120rem / @htmlFontSize;
+            padding: 0 0 70rem / @htmlFontSize;
         }
 
         .news-desc {
@@ -542,6 +535,17 @@ html, body {height: 100vh;}
             }
             cursor: default;
         }  
+    }
+}
+
+.news-cont {
+    h1 {
+        .uppercase;
+        position: relative;
+        margin: 0 0 8rem / @htmlFontSize;
+        color: @colorGreen;
+        font-size: 26em / @htmlFontSize;
+        font-weight: 400;
     }
 }
 
