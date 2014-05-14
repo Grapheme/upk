@@ -1,5 +1,5 @@
 function positionitems() {
-  $items = $('.index-block').add('.slide-title').add('.wrapper-abs');
+  $items = $('.index-block').add('.slide-title').first().add('.wrapper-abs');
 
   var time = 200;
 
@@ -24,11 +24,22 @@ function stiky() {
 }
 
 $(function(){
+	var $fotoramaDiv = $('._fotorama').fotorama();
+    var fotorama = $fotoramaDiv.data('fotorama');
+
 	text_center();
 	slide_over();
 	positionitems();
 	stiky();
 });
+
+$('._fotorama').on(
+  'fotorama:show',
+  function (e, fotorama) {
+    $('.slide-title').css('opacity', 0);
+    $('.slide-title').eq(fotorama.activeIndex).css('opacity', 1);
+  }
+);
 
 $(window).resize(function(){
 	slide_over();
